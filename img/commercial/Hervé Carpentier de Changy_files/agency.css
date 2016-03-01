@@ -29,16 +29,9 @@ body{
 
 
 	a:hover,a:focus,a:active,a.active{
-
 		color:#fff;
 		}
 
-#about a {
-	color: #9e93a1;
-	-webkit-transition:all .3s;
-	-moz-transition:all .3s;
-	transition:all .3s
-}
 
 	h1,h2,h3,h4,h5,h6{
 		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -120,12 +113,6 @@ body{
 		}
 
 
-@media (min-width: 768px) .nav .navbar-nav .navbar-right.navbar-right {
-	float: right;
-	margin-right: -15px;
-}
-
-
 	.navbar-default{
 		background-color:#222;
 		border-color:transparent;
@@ -150,10 +137,7 @@ body{
 		}
 	.navbar-default .navbar-collapse{
 		border-color:rgba(158, 147, 161, 0.7);
-
 		}
-
-
 
 	.navbar-default .navbar-toggle{
 		background-color:#9e93a1;
@@ -171,7 +155,6 @@ body{
 		font-weight:400;
 		letter-spacing:1px;
 		color:#fff;
-		
 
 		}
 
@@ -201,13 +184,10 @@ body{
 		}
 
 	.navbar-default .navbar-brand{
-		font-size:2.5em;
-		-webkit-transition:all .3s;
+		font-size:2.5em;-webkit-transition:all .3s;
 		-moz-transition:all .3s;
 		transition:all .3s;
-		
 		}
-
 
 	.navbar-default .navbar-nav>.active>a{
 		border-radius:3px;
@@ -222,7 +202,7 @@ body{
 		font-size:1.5em
 		}
 
-
+	
 
 	header{
 		background-image:url(../img/header-bg.jpg);
@@ -259,7 +239,7 @@ body{
 
 		}
 
-	@media (min-width:768px){ header .intro-text{
+	@media (min-width:300px){ header .intro-text{
 		padding-top:300px;
 		padding-bottom:600px;
 		}
@@ -308,7 +288,7 @@ body{
 		font-weight:400;
 		margin-bottom:75px
 	}
-	@media (min-width:768px){section{
+	@media (min-width:300px){section{
 		padding:150px 0;
 		}
 	
@@ -525,7 +505,7 @@ section#contact .form-group input.form-control{
 
 section#contact .form-group textarea.form-control{
 	height:236px;
-	width: 420px;
+	width: 520px;
 	}
 
 section#contact .form-control:focus{
@@ -563,10 +543,7 @@ section#contact :-ms-input-placeholder{
 
 section#contact .text-danger{
 	color:#e74c3c;
-
 	}
-
-
 
 footer{
 	padding:25px 0;
